@@ -105,3 +105,11 @@
 /home/timur/projects/BakeryApi/obj/Debug/net8.0/BakeryApi.pdb
 /home/timur/projects/BakeryApi/obj/Debug/net8.0/BakeryApi.genruntimeconfig.cache
 /home/timur/projects/BakeryApi/obj/Debug/net8.0/ref/BakeryApi.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/timur/projects/BakeryApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
