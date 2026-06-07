@@ -1,0 +1,45 @@
+@baseUrl = http://localhost:5149
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijg3YmEyZmU5LTJiNmEtNGI4ZS05ZDRhLWNlYjdiNTNlMGQ2ZCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InRlc3RlcmlAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiVXNlciIsImV4cCI6MTc4MDkyOTY4NiwiaXNzIjoiQmFrZXJ5QXBpIiwiYXVkIjoiQmFrZXJ5QXBpVXNlcnMifQ.P2XPp0RIpJutKH_Bo7DAvgQU0vviTAdk1HDTK5QbEK4
+
+### Get All Products
+GET {{baseUrl}}/api/Product
+Authorization: Bearer {{token}}
+
+### Get Product by Id
+GET {{baseUrl}}/api/Product/{{productId}}
+Authorization: Bearer {{token}}
+
+### Create Product
+POST {{baseUrl}}/api/Product
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "name": "Non",
+    "category": "Bread",
+    "price": 5000
+}
+
+### Update Product
+PUT {{baseUrl}}/api/Product/{{productId}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "name": "Non",
+    "category": "Bread",
+    "isAvailable": true
+}
+
+### Set Price
+PUT {{baseUrl}}/api/Product/{{productId}}/price
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "price": 6000
+}
+
+### Delete Product
+DELETE {{baseUrl}}/api/Product/{{productId}}
+Authorization: Bearer {{token}}
